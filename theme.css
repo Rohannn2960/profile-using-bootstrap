@@ -157,3 +157,45 @@ textarea:focus {
   border: 4px solid #d8b493;
   background: #efe4d6;
 }
+
+.social-links {
+  background: var(--cream-surface);
+  border: 1px solid rgba(139, 109, 81, 0.2);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(87, 64, 44, 0.08);
+}
+
+.social-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.social-link-btn i {
+  font-size: 1.1rem;
+}
+
+.social-link-btn.linkedin {
+  color: #f8efe2;
+  background: #0a66c2;
+}
+
+.social-link-btn.github {
+  color: #f8efe2;
+  background: #24292f;
+}
+
+.social-link-btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  color: #fff;
+}
